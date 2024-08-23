@@ -1,0 +1,12 @@
+.containerSearchBox{
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    text-align: left;
+}
+
+.searchInput{
+border: 2px solid #111;
+border-radius: 4px;
+padding: 8px;
+}

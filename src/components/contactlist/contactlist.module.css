@@ -1,0 +1,54 @@
+ul{
+     list-style-type: none;
+}
+
+.containerContact{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.listContactUser{
+    min-width: 200px;
+    border: 2px solid #111;
+    border-radius: 6px;
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: bisque;
+}
+
+.containerListText{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.textName{
+    font-weight: 400;
+    font-size: 18px;
+    color: #111;
+    text-align: left;
+    padding-bottom: 8px;
+}
+
+.textNumber{
+    font-weight: 400;
+    font-size: 18px;
+    color: #111;
+    text-align: left;
+}
+
+.buttomDelete{
+    width: 70px;
+    height: 35px;
+    border: 2px solid #111;
+    border-radius: 3px;
+    background-color: aliceblue;
+    padding: 0;
+}
+
+.buttomDelete:hover{
+    background-color: rgb(164, 156, 244);
+}

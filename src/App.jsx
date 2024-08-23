@@ -12,7 +12,7 @@ function App() {
   const [contactArr, setContactAdd] = useState(()=>{
     const contactArrStorage = window.localStorage.getItem("save-contact");
     const contactUsersParse = JSON.parse(contactArrStorage);
-    if (contactUsersParse.length > 0) {
+    if (contactUsersParse !== null) {
       // console.log("contactArrStorage.length", contactArrStorage.length);
       return contactUsersParse;
     }
